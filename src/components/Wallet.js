@@ -12,8 +12,8 @@ export class Wallet extends Component {
 }
 
 export default connect(
-  state => {
-    balance: state;
-  },
+  state => ({
+    balance: state
+  }),
   null
 )(Wallet);
