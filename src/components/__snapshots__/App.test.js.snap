@@ -19,10 +19,11 @@ ShallowWrapper {
     "props": Object {
       "children": Array [
         <h2>
-          Lot check
+          Loot check
         </h2>,
         <hr />,
         <Connect(Wallet) />,
+        <hr />,
         <Connect(Loot) />,
       ],
     },
@@ -33,10 +34,10 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": "Lot check",
+          "children": "Loot check",
         },
         "ref": null,
-        "rendered": "Lot check",
+        "rendered": "Loot check",
         "type": "h2",
       },
       Object {
@@ -60,6 +61,15 @@ ShallowWrapper {
       Object {
         "instance": null,
         "key": undefined,
+        "nodeType": "host",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": "hr",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
         "nodeType": "class",
         "props": Object {},
         "ref": null,
@@ -77,10 +87,11 @@ ShallowWrapper {
       "props": Object {
         "children": Array [
           <h2>
-            Lot check
+            Loot check
           </h2>,
           <hr />,
           <Connect(Wallet) />,
+          <hr />,
           <Connect(Loot) />,
         ],
       },
@@ -91,10 +102,10 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": "Lot check",
+            "children": "Loot check",
           },
           "ref": null,
-          "rendered": "Lot check",
+          "rendered": "Loot check",
           "type": "h2",
         },
         Object {
@@ -114,6 +125,15 @@ ShallowWrapper {
           "ref": null,
           "rendered": null,
           "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": "hr",
         },
         Object {
           "instance": null,

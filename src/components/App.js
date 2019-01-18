@@ -6,9 +6,10 @@ class App extends Component {
   render() {
     return (
       <div>
-        <h2>Lot check</h2>
+        <h2>Loot check</h2>
         <hr />
         <Wallet />
+        <hr />
         <Loot />
       </div>
     );
